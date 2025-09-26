@@ -82,9 +82,9 @@
 							"pm.test('response matches JSON schema', () => {",
 							"    pm.response.to.have.jsonSchema(expectedSchema);",
 							"});",
-							"// pm.test(\"Status code is 200\", function () {",
-							"//     pm.response.to.have.status(200);",
-							"// });"
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
 						],
 						"type": "text/javascript",
 						"packages": {},
